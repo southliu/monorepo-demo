@@ -1,0 +1,19 @@
+{
+  "name": "@south/apis",
+  "private": true,
+  "main": "index.ts",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
