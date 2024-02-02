@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@south/apis": "workspace:^",
+    "@south/components": "workspace:^",
     "@south/utils": "workspace:^",
     "pinia": "^2.1.3",
     "vue": "^3.3.4",

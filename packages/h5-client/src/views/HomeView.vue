@@ -1,5 +1,9 @@
 <template>
   <main>
+    <CBtn
+      msg="msg"
+      @confirm="onClick"
+    />
     <TheWelcome />
   </main>
 </template>
@@ -8,6 +12,7 @@
 import { onMounted } from 'vue';
 import { userApi } from '@south/apis';
 import { arrayUtil } from '@south/utils'
+import { CBtn } from '@south/components';
 import TheWelcome from '../components/TheWelcome.vue'
 
 const callApi = () => {
@@ -19,6 +24,10 @@ const callApi = () => {
     console.log('getUserById:', res)
   });
 };
+
+const onClick = (msg: string) => {
+  console.log('onClick:', msg);
+}
 
 onMounted(() => {
   arrayUtil

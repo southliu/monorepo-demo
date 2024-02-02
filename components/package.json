@@ -1,6 +1,7 @@
 {
-  "name": "components",
-  "version": "0.0.0",
+  "name": "@south/components",
+  "version": "0.0.1",
+  "main": "index.ts",
   "private": true,
   "scripts": {
     "dev": "vite",
